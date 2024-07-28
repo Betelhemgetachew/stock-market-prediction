@@ -41,3 +41,8 @@ We decided to use a Neural Network that:
 
 
 ### Neural Network
+On **training** data the model is extremely accurate. The error is exceedingly small and when visualised the points almost always overlap.
+
+On **testing** data the model has diverse behaviours. On one end for companies that experienced a recent boom due to AI the model underfits like Microsoft. On the other hand, for companies that deal with cosmetic products or food or a diverse range of products the model is pretty accurate all round.
+
+On **validation** data the model predicts companies that experienced an AI boom even better since the time span is shorter. For other companies the accuracy either stagnates generally or decreases.
