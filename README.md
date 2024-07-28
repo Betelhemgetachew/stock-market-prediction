@@ -1,9 +1,9 @@
 # Stock Market Prediction - MTH1060 Capstone Project
 ![Matlab Image](matlab.png)
 ## Introduction
-A machine learning model in MATLAB that predicts stock market prices based on historical data. 
+Machine learning models in MATLAB that predicts stock market prices based on historical data. 
 
-It utilises time series analysis and neural networks to evalulate the effectiveness in price prediction.
+They utilise time series analysis and neural networks to evaluate the effectiveness in price prediction.
 
 ## Data Acquisition
 Data was obtained from Yahoo Finance. The data spans from 1st July 2014 to 28th June 2024. The data is in the following general form:
@@ -16,9 +16,9 @@ Date,Open,High,Low,Close,Adj Close,Volume
 ```
 
 ## Data Preprocessing
-Data was imported into MatLab in bulk and stored in an array. This enable the use of iteration and control structures to access the data. Warnings are suppressed for cleaner output and if there are any missing values they are pointed out.
+Data was imported into MatLab in bulk and stored in an array. This enables the use of iteration and control structures to access the data. Warnings are suppressed for cleaner output and if there are any missing values they are pointed out.
 
-This allows for missing values to dropped in order to ensure that operations are not skewed or curtailed by this data.
+This allows for missing values to be dropped in order to ensure that operations are not skewed or curtailed by this data.
 
 Furthermore, data is normalized between the range of 0 and 1 in order for our Time Series Analysis and Neural Network models to be able to work with our data. Only numerical columns are normalized. The column `date` is not affected in any way.
 
@@ -28,7 +28,7 @@ Furthermore, data is normalized between the range of 0 and 1 in order for our Ti
 We decided to use a Neural Network that:
 
 - Has 40 hidden nodes
-- Trains for a maximum of 300 epochs
+- Trains for a maximum of 1000 epochs
 - Uses the adam optimizer
 - Utilises 75% of the data to train
 - Utilises 25% of the data to test
