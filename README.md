@@ -1,4 +1,4 @@
-# Stock Market Prediction - MTH1060 Capstone Project
+# Stock Market Prediction -
 ![Matlab Image](matlab.png)
 ## Introduction
 Machine learning models in MATLAB that predicts stock market prices based on historical data. 
